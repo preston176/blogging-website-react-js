@@ -11,8 +11,8 @@ const Header = () => {
           <Navbar.Brand href="/">BlogSphere</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/post">Write a blog</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#features">About Us</Nav.Link>
+            <Nav.Link href="/pricing">Pricing</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
