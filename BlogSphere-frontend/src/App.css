@@ -9,6 +9,9 @@
   margin-bottom: 2rem;
 }
 
+.img_fullNews img {
+  width: 100%;
+}
 .hyper__link {
   text-decoration: none;
   color: #000;
@@ -25,11 +28,12 @@
 
 .left__Side {
   flex: 0.7;
-  width: 100%;
+  max-width: 768px;
+  justify-content: space-between;
 }
 
 .left__Side .img__Container img {
-  width: 70%;
+  width: 100%;
 }
 
 .right__Side {
