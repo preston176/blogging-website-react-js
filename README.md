@@ -1,6 +1,6 @@
 # Blogging website
 
-This is my first project i've built using TypeScript
+- Blogging website built using react js
 
 ## Features
 
