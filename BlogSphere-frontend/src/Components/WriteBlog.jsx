@@ -65,7 +65,7 @@ const WriteBlog = () => {
           <input className='my-2' type="text" placeholder='Categorize your post...' id='category' required value={blog.category} onChange={e => setBlog({ ...blog, category: e.target.value })} />
           <label htmlFor="img">Image link</label>
           <input type="text" placeholder='image URL (leave blank if you dont have)' id='img' required className='my-2' value={blog.imgURL} onChange={e => setBlog({ ...blog, imgURL: e.target.value })} />
-          <textarea name="" id="" cols={30} rows={10} maxLength={100} minLength={5} placeholder='type here' required value={blog.content} onChange={e => setBlog({ ...blog, content: e.target.value })}></textarea>
+          <textarea name="" id="" cols={30} rows={10} maxLength={250} minLength={5} placeholder='type here' required value={blog.content} onChange={e => setBlog({ ...blog, content: e.target.value })}></textarea>
           <button className='btn btn-primary my-2'>Submit</button>
         </form>
       </Container>
