@@ -1,0 +1,16 @@
+.blogs__Section {
+  display: flex;
+  gap: 1rem;
+}
+
+.left__Side {
+  flex: 0.6;
+}
+
+.right__Side {
+  flex: 0.4;
+}
+
+.blog__Card img {
+  width: 100%;
+}

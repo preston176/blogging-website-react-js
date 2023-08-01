@@ -3,13 +3,13 @@ import BlogCard from './BlogCard'
 
 const BlogsSection = () => {
   return (
-    <div>
-      <div className="left--side">
+    <div className='blogs__Section'>
+      <div className="left__Side">
           <div className="blogcard">
           <BlogCard />
           </div>
         </div>
-        <div className="right--side">
+        <div className="right__Side">
           <div className="blogcard">
           <BlogCard />
           </div>
