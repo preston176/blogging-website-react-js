@@ -11,8 +11,7 @@
 
 
 ## Live Preview
-![Screenshot (189)](https://github.com/preston176/blogging-website-react-js/assets/49411983/1c72321c-34a7-46dc-8735-c635dbe15c42)
-
+![12](https://github.com/preston176/blogging-website-react-js/assets/49411983/90fa8056-4b0d-4780-b9b4-464cf49a1518)
 
 ## Usage
 
