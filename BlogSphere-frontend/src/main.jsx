@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import App from './App.jsx'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import WriteBlog from './Components/WriteBlog.tsx';
-import Header from './Components/Header.tsx';
-import FullNews from './Components/FullNews.tsx';
+import WriteBlog from './Components/WriteBlog.jsx';
+import Header from './Components/Header.jsx';
+import FullNews from './Components/FullNews.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
           <Header />
     <BrowserRouter>

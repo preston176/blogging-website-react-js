@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap'
 
 
 const WriteBlog = () => {
-const date: Date = new Date()
-const now: string = date.toLocaleDateString()
+const date = new Date()
+const now = date.toLocaleDateString()
 
     const [blog, setBlog] = useState({
         title: "",
@@ -17,7 +17,7 @@ const now: string = date.toLocaleDateString()
     })
 
     
-const handleSubmit = (e: Event) => {
+const handleSubmit = (e) => {
     e.preventDefault();
         const sendData = async () => {
           try {
