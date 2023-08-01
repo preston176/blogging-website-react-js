@@ -20,7 +20,7 @@ const BlogsSection = ({newsData}) => {
         <ul>      
             {newsData.map(item => (
                  <li className='side__list'>
-            <BlogCard id={item.id} category={item.category} title={item.title} pic={item.imgURL}/> 
+            <BlogCard id={item.id} category={item.category} title={item.title} pic={item.imgURL} timestamp={item.timestamp}/> 
             </li>
           )) }
             </ul>
