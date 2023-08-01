@@ -1,0 +1,25 @@
+{
+  "newsData": [
+    {
+      "id": 0,
+      "title": "Rogue or ignorant? Ruto CSs’ actions baffle Kenyans, anger lawmakers",
+      "description": "From left: Cabinet Secretaries Mithika Linturi (Agriculture) Susan Nakhumicha’s (Health), Moses Kurua (Trade) and Alfred Mutua (Foreign Affairs).",
+      "category": "Politics",
+      "imgURL": "https://i.ytimg.com/vi/bIgDbwbZ_So/hqdefault.jpg"
+  },
+  {
+    "id": 1,
+    "title": "President Ruto's full speech as he presides over first ministerial performance contracts",
+    "description": "President William Ruto has cautioned State officials against engaging in corrupt practices while discharging their duties to Kenyans.",
+    "category": "Politics",
+    "imgURL": "https://i.ytimg.com/vi/bIgDbwbZ_So/hqdefault.jpg"
+},
+{
+  "id": 2,
+  "title": "Raila Odinga attended meeting chaired by former President Obasanjo",
+  "description": "Azimio la Umoja Coalition disowns ‘joint statement’ released by National Assembly Majority leader Kimani Ichung’wa, claims it was one-sided.",
+  "category": "Politics",
+  "imgURL": "https://i.ytimg.com/vi/bIgDbwbZ_So/hqdefault.jpg"
+}
+  ]
+}

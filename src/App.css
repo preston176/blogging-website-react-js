@@ -1,16 +1,28 @@
 .blogs__Section {
   display: flex;
-  gap: 1rem;
 }
 
 .left__Side {
-  flex: 0.6;
+  flex: 0.8;
+}
+
+.left__Side .img__Container img {
+  width: 75%;
 }
 
 .right__Side {
-  flex: 0.4;
+  flex: 0.2;
+}
+.right__Side .blog__Card img {
+  width: 50%;
 }
 
-.blog__Card img {
-  width: 100%;
+.right__Side .blog__Card h4 {
+  font-size: small;
+  font-weight: 700;
+}
+
+.right__Side .blog__Card {
+  line-height: 1rem;
+  margin: 0.02rem;
 }
