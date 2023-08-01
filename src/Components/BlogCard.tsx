@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
 const BlogCard = ({id, category, description, title, pic}) => {
   return (
@@ -12,7 +12,7 @@ const BlogCard = ({id, category, description, title, pic}) => {
     <div className="category__container">
     
        {category && <button className='btn active'>{category}</button>} 
-       <button className='btn btn-primary read__more'>Read More</button>
+       <Link to={`/news/${id}`} > <button className='btn btn-primary read__more'>Read More</button></Link>
        
     </div>
     

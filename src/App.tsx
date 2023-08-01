@@ -1,9 +1,11 @@
 
 import './App.css'
-import BlogCard from './Components/BlogCard'
+
 import BlogsSection from './Components/BlogsSection'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Header from './Components/Header'
 import { useState, useEffect } from 'react';
+import WriteBlog from './Components/WriteBlog';
 
 function App() {
   const [newsData, setNewsData] = useState([]);
@@ -18,9 +20,11 @@ function App() {
 
   return (
     <>
-      <Header />
-    
+
+      
+        {/* <Route path='/post' element={<WriteBlog />}></Route> */}
       <BlogsSection newsData={newsData} />
+      
     </>
   )
 }
