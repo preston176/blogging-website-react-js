@@ -5,10 +5,17 @@
   color: #222;
   font-style: italic;
 }
-.blog__Card {
-  border: 1px solid slategrey;
+.left__Side .blog__Card {
+  border: 2px solid rgb(0, 37, 158);
   margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
 }
+
+.right__Side .blog__Card {
+  border: #000 solid slategray;
+}
+
 .blog__Card:hover {
   transform: scale(1.01);
   transform: rotate(0.5deg);
