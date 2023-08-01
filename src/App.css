@@ -1,12 +1,18 @@
 .blogs__Section {
   display: flex;
 }
-
+.blog__description {
+  color: #222;
+}
 .blog__Card {
   border: 1px solid slategrey;
   margin-bottom: 2rem;
 }
 
+.hyper__link {
+  text-decoration: none;
+  color: #000;
+}
 .side__list {
   display: flex;
   flex-direction: column;
@@ -20,11 +26,10 @@
 .left__Side {
   flex: 0.7;
   width: 100%;
-  max-width: fit-content;
 }
 
 .left__Side .img__Container img {
-  width: 100%;
+  width: 70%;
 }
 
 .right__Side {
@@ -54,5 +59,8 @@
   }
   .left__Side {
     flex: 1;
+  }
+  .left__Side .img__Container img {
+    width: 100%;
   }
 }

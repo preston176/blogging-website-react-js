@@ -11,7 +11,7 @@ const BlogsSection = ({newsData}) => {
     <div className="blogs__Section">
       <div className="left__Side">
           {newsData.map(item => (
-            <BlogCard id={item.id} category={item.category} title={item.title} description={item.description} pic={item.imgURL}/> 
+            <BlogCard key={item.id} id={item.id} category={item.category} title={item.title} description={item.description} pic={item.imgURL} timestamp={item.timestamp}/> 
           )) }
         </div>
        
@@ -19,7 +19,7 @@ const BlogsSection = ({newsData}) => {
             <div className="right__Side__items">
         <ul>      
             {newsData.map(item => (
-                 <li className='side__list'>
+                 <li className='side__list'  key={item.id}>
             <BlogCard id={item.id} category={item.category} title={item.title} pic={item.imgURL} timestamp={item.timestamp}/> 
             </li>
           )) }

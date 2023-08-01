@@ -3,18 +3,22 @@ import { Container } from 'react-bootstrap'
 
 
 const WriteBlog = () => {
+const date: Date = new Date()
+const now: string = date.toLocaleDateString()
+
     const [blog, setBlog] = useState({
         title: "",
         author: '',
         category: "",
         imgURL: "https://img.freepik.com/premium-vector/screen-saver-breaking-news-background-urgent-news-release-television_47243-1559.jpg?w=1060",
         description: "",
-        content: ""
+        content: "",
+        timestamp: `${now}`
     })
 
     
 
-const handleSubmit = (e) => {
+const handleSubmit = (e: Event) => {
     e.preventDefault();
         const sendData = async () => {
           try {
@@ -55,7 +59,7 @@ const handleSubmit = (e) => {
         <input className='my-2' type="text" placeholder='Categorize your post...' id='category' required value={blog.category} onChange={e => setBlog({...blog,category: e.target.value})}/>
      <label htmlFor="img">Image link</label>
       <input type="text" placeholder='image URL (leave blank if you dont have)' id='img' required className='my-2' value={blog.imgURL} onChange={e => setBlog({...blog,imgURL: e.target.value})}/>
-      <textarea name="" id="" cols="30" rows="10" maxLength={100} minLength={5} placeholder='type here' required value={blog.content} onChange={e => setBlog({...blog,content: e.target.value})}></textarea>
+      <textarea name="" id="" cols={30} rows={10} maxLength={100} minLength={5} placeholder='type here' required value={blog.content} onChange={e => setBlog({...blog,content: e.target.value})}></textarea>
       <button className='btn btn-primary my-2'>Submit</button>
       </form>
       </Container>
