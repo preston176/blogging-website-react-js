@@ -55,7 +55,7 @@ const WriteBlog = () => {
   return (
     <div>
       <Container>
-        <h2 className='text-center my-2'>Do you want to sumbit your blog?</h2>
+        <h2 className='text-center my-2'>Do you want to submit your blog?</h2>
         <form onSubmit={handleSubmit} className='form-control d-flex flex-column shadow'>
           <label htmlFor="#name">Enter your name</label>
           <input className='my-2' type="text" placeholder='Your name ...' id='name' required value={blog.author} onChange={e => setBlog({ ...blog, author: e.target.value })} />
