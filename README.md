@@ -6,13 +6,15 @@
 
 1. Responsive design
 2. You can write your blog posts
-2. Search and Filters by category
-3. Commenting System ```you can give your comments to any blogs```
+2. Search and Filters by category(feature to be added)
+3. Commenting System ```you can give your comments to any blogs``` (feature to be added)
 
 
 ## Live Preview
-![12](https://github.com/preston176/blogging-website-react-js/assets/49411983/03499711-5a11-43d7-8482-f3d2de080922)
-
+- homepage
+![snip1](https://github.com/preston176/blogging-website-react-js/assets/49411983/c93c28ab-0a09-4e95-969f-45ac681d0896)
+- write blog page
+![snip2](https://github.com/preston176/blogging-website-react-js/assets/49411983/e0a3a27c-a450-4154-9337-b38a5f2d6d72)
 
 ## Usage
 
