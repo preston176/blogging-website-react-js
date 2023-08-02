@@ -10,6 +10,7 @@ import WriteBlog from './Components/WriteBlog.jsx';
 import Header from './Components/Header.jsx';
 import FullNews from './Components/FullNews.jsx';
 import About from './Components/About.jsx';
+import ContactUs from './Components/ContactUs.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/post' element={<WriteBlog />}></Route>
         <Route path="/news/:id" element={<FullNews />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/contactus" element={<ContactUs />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

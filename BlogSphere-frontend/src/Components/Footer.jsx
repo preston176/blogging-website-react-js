@@ -45,8 +45,6 @@ export default function Footer() {
                                 </p>
                             </MDBCol>
 
-
-
                         </MDBRow>
                     </form>
                 </section>
