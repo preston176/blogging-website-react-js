@@ -19,7 +19,7 @@ const ContactUs = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://your-server-url.com/api/contact', {
+            const response = await fetch('https://crud-db-three.vercel.app/BlogSphereContact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

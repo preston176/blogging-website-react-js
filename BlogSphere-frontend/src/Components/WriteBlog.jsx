@@ -23,7 +23,7 @@ const WriteBlog = () => {
     e.preventDefault();
     const sendData = async () => {
       try {
-        const response = await fetch('https://whispering-falls-32785-62b22573fe66.herokuapp.com/api/newsData', {
+        const response = await fetch('https://crud-db-three.vercel.app/newsData', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
