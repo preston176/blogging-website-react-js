@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='/post' element={<WriteBlog />}></Route>
-        <Route path="/newsData/:id" element={<FullNews />}></Route>
+        <Route path="/news/:id" element={<FullNews />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contactus" element={<ContactUs />}></Route>
       </Routes>

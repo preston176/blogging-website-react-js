@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const BlogCard = ({ id, category, description, title, pic, timestamp, author }) => {
   return (
-    <Link className="hyper__link" to={`/newsData/${id}`} >
+    <Link className="hyper__link" to={`/news/${id}`} >
 
       <div className='blog__Card'>
         <div className="img__Container">
