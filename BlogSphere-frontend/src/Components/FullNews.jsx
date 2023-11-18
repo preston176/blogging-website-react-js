@@ -6,7 +6,7 @@ const FullNews = () => {
     const [newsData, setNewsData] = useState([])
 
 useEffect(() => {
-    fetch('https://whispering-falls-32785-62b22573fe66.herokuapp.com/api/newsData')
+    fetch('https://crud-db-three.vercel.app/newsData')
     .then(Response => Response.json())
     .then(data => setNewsData(data))
 },[])
